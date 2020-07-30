@@ -1,0 +1,29 @@
+<nav class="navbar">
+    <a class="log" href="./logout">logout</a>
+</nav>
+
+<div class="">
+
+    {{#if error}}
+    <div class="error">Something went wrong!.</div>
+    {{/if}}
+
+
+
+    <h2>Thank you for signing our petition and help us to save the wildlife!</h2>
+
+    <div class="signature-container">
+        <img class="signature-img" src="{{signature.user_signature}}" align="center" alt="">
+    </div>
+
+    <div class="helpers">
+        <h3>See all signers:</h3>
+        <div class="signers-container">
+            <ul class="signers" style="list-style-type: none;">
+                {{#signers}}
+                <li>{{first_name}} {{last_name}}  {{ age }}  {{ city }} </li>
+                {{/signers}}
+            </ul>
+        </div>
+    </div>
+</div>

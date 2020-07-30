@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(12, 12, 12);
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.container {
+  position: relative;
+}
+
+h2,
+h3,
+h5 {
+  color: whitesmoke;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+p {
+  color: white;
+  padding: 40px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 55px;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.form-sign {
+  padding: 10px;
+  margin-top: 40px;
+}
+
+#canvas {
+  box-shadow: 0 14px 28px rgba(219, 188, 188, 0.25),
+    0 10px 10px rgba(231, 212, 212, 0.22);
+}
+
+.submit {
+  cursor: pointer;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.consideration {
+  padding: 10px;
+}
+
+.agreement {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.btn-register {
+  font-size: 20px;
+  color: rgb(27, 32, 29);
+  background-color: rgb(252, 252, 252);
+  padding: 5px;
+  width: 130px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn-signPetition {
+  font-size: 20px;
+  color: rgb(27, 32, 29);
+  background-color: rgb(252, 252, 252);
+  padding: 5px;
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.form-login,
+.form-register,
+.profile-input {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-login,
+.container-register,
+.sign-petition,
+.container-home {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.log-in,
+.btn-reg,
+.buttonreg,
+.button-profile {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.home {
+  background-image: url("/urso.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.intro,
+p {
+  padding: 30px;
+  color: rgb(252, 252, 252);
+}
+
+h1 {
+  color: rgb(252, 252, 252);
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+h5 {
+  color: rgb(27, 32, 29);
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.login {
+  background-image: url("/elephannt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.btn2-login {
+  font-size: 20px;
+  color: rgb(27, 32, 29);
+  background-color: rgb(252, 252, 252);
+  padding: 5px;
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn2-register {
+  font-size: 20px;
+  color: rgb(27, 32, 29);
+  background-color: rgb(252, 252, 252);
+  padding: 5px;
+  width: 130px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.reg-container {
+  background-image: url("/m.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+h4 {
+  color: rgb(244, 248, 245);
+  text-align: center;
+  font-size: 30px;
+}
+.petition {
+  background-image: url("/ttt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.text-petition {
+  color: rgb(248, 240, 248);
+  padding: 40px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.profile-container {
+  background-image: url("/leao.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.navbar {
+  text-align: end;
+  padding: 10px;
+}
+
+.pet,
+.conf,
+.log,
+.prof {
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: rgb(244, 248, 245);
+  padding: 10px;
+}
+
+.home-p {
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: rgb(21, 22, 22);
+  padding: 10px;
+}
+
+h6 {
+  color: rgb(244, 248, 245);
+  padding: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-profile {
+  font-size: 15px;
+  color: rgb(27, 32, 29);
+  background-color: rgb(252, 252, 252);
+  padding: 5px;
+  width: 90px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.signature-container {
+  padding: 30px;
+  margin: 0 25%;
+}
+
+.signature-img {
+  background-color: white;
+}
+
+.begin-session {
+  font-size: 18px;
+  cursor: pointer;
+  color: rgb(244, 248, 245);
+  text-transform: uppercase;
+}
+
+li {
+  color: white;
+}
+
+.edit-profile {
+  font-size: 20px;
+  color: white;
+}
+
+.signers {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.signers-container {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  background-color: rgba(44, 39, 39, 0.5);
+  height: 100vh;
+}

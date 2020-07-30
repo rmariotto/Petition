@@ -1,0 +1,29 @@
+<div class="reg-container">
+    <nav class="navbar">
+        <a class="log" href="/">home /</a>
+        <a class="log" href="/">log-in</a>
+    </nav>
+
+    <h4>Please help us to save the wildlife!</h4>
+    
+    {{#if error}}
+    <div class="error">Something went wrong!.</div>
+    {{/if}}
+    
+    <div class="container-register">
+        <form id="register-form" action="/register" method="POST" autocomplete="off">
+            <div class="form-register">
+                <input type="text" name="first_name" id="fName" placeholder="first name" autocomplete="off">
+                <input type="text" name="last_name" id="lName" placeholder="last name" autocomplete="off">
+                <input type="" name="email" id="email" placeholder="email" autocomplete="off">
+                <input type="" name="user_password" id="user_password" placeholder="password" autocomplete="off">
+                <input type="hidden" name="_csrf" value="{{csrfToken}}">
+            </div>
+    </div>
+    <div>
+        <div class="buttonreg">
+            <button class="btn2-register">register</button>
+        </div>
+        </form>
+    </div>
+</div>

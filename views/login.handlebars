@@ -1,0 +1,27 @@
+<div class="login">
+    {{#if error}}
+    <div class="error">Something went wrong!.</div>
+    {{/if}}
+    
+    <nav class="navbar">
+        <a class="home-p" href="/home">home</a>
+    </nav>
+    <h5>Please Log-in!</h5>
+
+    <div class="container-login">
+        <form id="login" action="/login" method="POST">
+            <div class="form-login">
+                <input type="" name="email" id="email" placeholder="email">
+                <input type="password" name="password" id="pw" placeholder="password">
+                <input type="hidden" name="_csrf" value="{{csrfToken}}">
+            </div>
+    </div>
+    <div>
+        <div class="log-in">
+            <button class="btn2-login">login</button>
+        </div>
+        </form>
+        <p><a class="begin-session" href="/register">register</a></p>
+    </div>
+</div>
+</div>

@@ -1,0 +1,36 @@
+<div class="petition">
+
+    {{#if error}}
+    <div class="error">Something went wrong!.</div>
+    {{/if}}
+
+
+    <nav class="navbar">
+        <a class="log" href="./logout">logout</a>
+    </nav>
+    <div class="consideration">
+        <h4>Please help us to save the wildlife!</h4>
+
+        <p class="text-petition">Our fight is regarding animal protection, which has been violated for
+            <br> centuries due to the neglect of the man who pursues animal maltreatment.
+            <br>This petition shows itself of great importance because the animals have rights,
+            <br>as they are lives and have physical and emotional sensations as humans.
+            <br>The human can appreciate nature without having to capture wild animals and subject
+            <br> them to prison to please and entertain the ego itself, thus causing suffering for
+            <br> the wild animal, to which one should be in its natural habitat.</p>
+    </div>
+
+    <div>
+        <form action="petition" method="POST">
+            <input type="hidden" name="_csrf" value="{{csrfToken}}">
+           
+            <div class="form-sign" style="text-align:center">
+                <canvas id="canvas" width="600" height="100" style="background:white"></canvas>
+            </div>
+            <input type="hidden" name="userSignature" id="signature">
+            <div class="sign-petition">
+                <button class="btn-signPetition">Sign</button>
+            </div>
+        </form>
+    </div>
+</div>
